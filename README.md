@@ -12,6 +12,13 @@ Deku v2 RC onUpdate issue demo
     open index.html
 
 
+```
+1 render : tkghhrt.0.0
+2 render : tkghhrt.0 <= drop .0 ?
+2 onUpdate : tkghhrt.0
+3 render : tkghhrt.0
+3 onUpdate : tkghhrt.0
+```
 
 ## Contributing
 
