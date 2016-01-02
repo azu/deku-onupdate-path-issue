@@ -1,0 +1,39 @@
+{
+  "name": "deku-onupdate-path-issue",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azu/deku-onupdate-path-issue.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/deku-onupdate-path-issue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/deku-onupdate-path-issue/issues"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "browserify src/index.js -o build.js",
+    "watch": "watchify -d src/index.js -o build.js"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "description": "",
+  "dependencies": {
+    "deku": "^2.0.0-rc7"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-react-jsx": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1",
+    "watchify": "^3.6.1"
+  }
+}
